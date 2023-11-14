@@ -1,7 +1,8 @@
 import Search from "./Search"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faSquareGithub } from "@fortawesome/free-brands-svg-icons";
+import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCodeBranch, faStar } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
             <Search />
         </div>
        
-        <div className="h-full" style={{background: "#20293A", height: "72vh"}} >
+        <div className="h-full" style={{background: "#20293A", height: "80vh"}} >
           <div>
           <div className="absolute left-[10%] top-[285px]">
           <FontAwesomeIcon icon= {faSquareGithub} color="white" className="text-[150px]"/>
@@ -42,24 +43,93 @@ const Hero = () => {
             <h1 className="text-6xl leading-normal">GitHub</h1>
             <p className="text-3xl">How people build software</p>
           </div>
-          <div>
-            <div>
+          <div className="flex gap-5 flex-wrap my-10">
 
+          <div className="text-white bg-slate-950 p-8 w-[650px] h-[250px] rounded-xl">
+                <span className="text-4xl">.github</span>
+                <p className="text-xl my-3">Community health files for the @Github organizatioon</p>
+                <div className="flex gap-12 my-4">
+                <div>
+                  <FontAwesomeIcon icon={faCodeBranch} fontSize="24px" />
+                  <span className="text-2xl mx-4">2345</span>
+                  </div>
+                  
+                   <div>
+                    <FontAwesomeIcon icon={faStar} fontSize="24px"/>
+                    <span className="text-2xl mx-4">703</span>
+                   </div>
+                  <p className="text-2xl">updated 4days ago</p>
+                </div>
             </div>
-            <div>
 
-            </div>
-            <div>
 
+          
+            <div className="text-white bg-slate-950 p-8 w-[650px] h-[250px] rounded-xl">
+                <span className="text-4xl">.github</span>
+                <p className="text-xl my-3">Community health files for the @Github organizatioon</p>
+                <div className="flex gap-12 my-4">
+                <div>
+                  <FontAwesomeIcon icon={faCodeBranch} fontSize="24px" />
+                  <span className="text-2xl mx-4">2345</span>
+                  </div>
+                  
+                   <div>
+                    <FontAwesomeIcon icon={faStar} fontSize="24px"/>
+                    <span className="text-2xl mx-4">703</span>
+                   </div>
+                  <p className="text-2xl">updated 4days ago</p>
+                </div>
             </div>
+
+
+       
+
+
             <div>
-              
+            <div className="text-white bg-slate-950 p-8 w-[650px] h-[250px] rounded-xl">
+                <span className="text-4xl">.github</span>
+                <p className="text-xl my-3">Community health files for the @Github organizatioon</p>
+                <div className="flex gap-12 my-4">
+                <div>
+                  <FontAwesomeIcon icon={faCodeBranch} fontSize="24px" />
+                  <span className="text-2xl mx-4">2345</span>
+                  </div>
+                  
+                   <div>
+                    <FontAwesomeIcon icon={faStar} fontSize="24px"/>
+                    <span className="text-2xl mx-4">703</span>
+                   </div>
+                  <p className="text-2xl">updated 4days ago</p>
+                </div>
+            </div>
+
+            
+            </div>
+
+            <div>
+            <div className="text-white bg-slate-950 p-8 w-[650px] h-[250px] rounded-xl">
+                <span className="text-4xl">.github</span>
+                <p className="text-xl my-3">Community health files for the @Github organizatioon</p>
+                <div className="flex gap-12 my-4">
+                <div>
+                  <FontAwesomeIcon icon={faCodeBranch} fontSize="24px" />
+                  <span className="text-2xl mx-4">2345</span>
+                  </div>
+                  
+                   <div>
+                    <FontAwesomeIcon icon={faStar} fontSize="24px"/>
+                    <span className="text-2xl mx-4">703</span>
+                   </div>
+                  <p className="text-2xl">updated 4days ago</p>
+                </div>
+            </div>
+
+
             </div>
           </div>
          </div>
         
-          <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <button className="btn btn-primary">Get Started</button>
+        
         </div>
       
     </div>
